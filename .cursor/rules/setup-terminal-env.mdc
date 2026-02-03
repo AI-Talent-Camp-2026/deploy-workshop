@@ -1,0 +1,7 @@
+---
+alwaysApply: true
+---
+
+Run `nvm use` command when starting to execute scripts in new terminal.
+
+If any node-specific issue arises then `nvm use` again.

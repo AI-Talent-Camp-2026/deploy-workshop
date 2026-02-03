@@ -1,0 +1,12 @@
+---
+description: Basic rules
+alwaysApply: true
+---
+
+In all instructions, terminal commands, and project configurations, always use `npm`.
+
+When verifying the code functionality, always run `npm run build`.
+
+Do not run `npm run dev`.
+
+Do not add README files and usage examples.

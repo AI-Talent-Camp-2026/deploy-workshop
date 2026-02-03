@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+
+/* Ensure buttons are visible in dark theme */
+[data-accent-color="jade"] button[data-variant="solid"] {
+  background-color: var(--jade-9) !important;
+  color: white !important;
+}
+
+[data-accent-color="jade"] button[data-variant="solid"]:hover {
+  background-color: var(--jade-10) !important;
+}
+
+[data-accent-color="jade"] button[data-variant="outline"] {
+  border-color: var(--jade-9) !important;
+  color: var(--jade-9) !important;
+}
+
+[data-accent-color="jade"] button[data-variant="outline"]:hover {
+  background-color: var(--jade-3) !important;
+  color: var(--jade-11) !important;
+  border-color: var(--jade-10) !important;
+}

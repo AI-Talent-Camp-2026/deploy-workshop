@@ -1,0 +1,10 @@
+---
+description: Structure for UI components
+alwaysApply: false
+---
+UI components follow this structure:
+- `ComponentName.ts` – component
+- `ComponentName.module.css` – styles
+- `const.ts` – constants
+- `interfaces.ts` – types
+- `index.ts` – public re-export

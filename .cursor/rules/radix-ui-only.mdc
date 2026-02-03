@@ -1,0 +1,21 @@
+---
+description: Prefer Radix UI for all React UI components
+alwaysApply: true
+---
+
+When building React UI in this workspace:
+
+- Use Radix UI packages as the primary source of UI primitives:
+  - `@radix-ui/themes` for layout, typography, and common components (Button, Card, Flex, Box, Grid, Heading, Text, etc.).
+  - Other Radix UI primitives (e.g., dialog, dropdown, tooltip) when needed for interactions.
+
+- Prefer Radix components over:
+  - Hand-rolled HTML + CSS for standard UI patterns (buttons, inputs, dialogs, overlays, navigation, menus).
+  - Additional component libraries (MUI, Chakra, Ant Design, Headless UI, etc.), unless the user explicitly requests them.
+
+- Keep semantic HTML where it improves accessibility, but style and structure should generally be driven by Radix components and tokens.
+
+- For new UI:
+  - Start with Radix building blocks (`Box`, `Flex`, `Grid`, `Card`, `Button`, `Text`, `Heading`) and compose from there.
+  - Reuse existing Radix-based components in `src/components` and `src/layout` before introducing bespoke patterns.
+
